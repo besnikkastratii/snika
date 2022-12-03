@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body {
-  font-size: 120%;
+  font-size: 20%;
   background: #9696b6;
 }
 
@@ -11,7 +11,7 @@ body {
   width: 30%;
   margin: 50px auto 0px;
   color: white;
-  background: #5F9EA0;
+  background: #1a7073;
   text-align: center;
   border: 1px solid #B0C4DE;
   border-bottom: none;
@@ -54,7 +54,7 @@ form, .content {
   width: 92%; 
   margin: 0px auto; 
   padding: 10px; 
-  border: 1px solid #a94442; 
+  border: 1px solid #fa0b07; 
   color: #a94442; 
   background: #f2dede; 
   border-radius: 5px; 
