@@ -81,10 +81,10 @@ if (isset($_POST['login_user'])) {
   $password = mysqli_real_escape_string($db, $_POST['password']);
 
   if (empty($username)) {
-  	array_push($errors, "");
+  	array_push($errors, "username can not be empty");
   }
   if (empty($password)) {
-  	array_push($errors, "");
+  	array_push($errors, "password can not be empty");
   }
   if (strlen($username) < 5){
    array_push($errors, "username  is too short,minimum 6 characters required");
