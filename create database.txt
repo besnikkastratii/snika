@@ -1,9 +1,0 @@
-CREATE TABLE `besnik1` (
-  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  `username` varchar(100) NOT NULL,
-  `email` varchar(100) NOT NULL,
-  `password` varchar(100) NOT NULL,
-  `pubgid` varchar(100) NOT NULL,
-  `registrationD` varchar(100) NOT NULL,
-  `expiryD` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
