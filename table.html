@@ -57,7 +57,7 @@
             <td><input type="tel" name="number" required placeholder="numri telefonit (+383)" value="+383" ></td>
           </tr><br>
           <tr>
-            <label for="datetime-local">Zgjedh daten?</label>
+            <label for="datetime-local">Zgjedh daten</label>
             <td><input type="datetime-local" name="datetime-local" ></td>
            
           </tr><br>
@@ -66,50 +66,47 @@
             <td><input type="radio" name="gender" value="male"> Mashkull <input type="radio" name="gender" value="female"> Femer</td><br>
           </tr>
           <tr>
-            <td> Qyteti:</td>
             <td>
-                <input list="Qyteti" required >
-                <datalist id="Qyteti">
-                    <option value="Prishtine"></option>
-                    <option value="Gjilan"></option>
-                    <option value="Kamenice"></option>
-                    <option value="Ferizaj"></option>
-                    <option value="Prizren"></option>
-                    <option value="Gjakove"></option>
-                    <option value="Tjeter"></option>
-                </datalist>
+              <label for="city">Qyteti:</label>
+              <select id="city" name="city">
+                <option value="gjilan">Gjilan</option>
+                <option value="prishtine">Prishtine</option>
+                <option value="kamenice">Kamenice</option>
+                <option value="prizren">Prizren</option>
+                <option value="peje">Peje</option>
+                <option value="gjakove">Gjakove</option>
+              </select>
                 </td><br>
           </tr>
           <tr>
-            <td>Komenti:</td>
-            <td><textarea name="comments" cols="21" placeholder="Komenti juaj"></textarea></td>
-          </tr><br>
-          <tr>
             <td>Cilat Produkte i Deshironi?:</td>
-            <td><input type="checkbox" id="i9">
-            <label for="i9">i9</label></td>
-            <td><input type="checkbox"  id="i7">
-           <label for="i7">i7</label></td>
-            <td><input type="checkbox"  id="i5">
-           <label for="i5">i5</label></td>
-            </td>
+            <input type="checkbox" id="i5" name="Produkti" value="i5">
+            <label for="option1">i5</label>
+          
+            <input type="checkbox" id="i7" name="Produkti" value="i7">
+            <label for="option2">i7</label>
+          
+            <input type="checkbox" id="i9" name="Produkti" value="i9">
+            <label for="option3">i9</label>
           </tr><br>
-             <tr>
-                <td>Menyra Pageses :</td>
-                <input type="radio" name="Pagesa" id="1" checked class="radio">
-                <label for="1"><span><i class="fa fa-cc-visa"></i> Credit Card</span></label>
-                <input type="radio" name="Pagesa" id="2" class="radio">
-                <label for="2"><span><i class="fa fa-cc-paypal"></i> Paypal</span></label>
-                <input type="radio" name="Pagesa" id="3" class="radio">
-                <label for="3"><span><i class="fa fa-cc-paypal"></i> Cash</span></label>
-              </tr><br>
+          <label for="payment">Menyra Pageses:</label>
+          <select id="payment" name="payment">
+            <option value="credit_card">Kredit Kartel</option>
+            <option value="Para ne Dore">Para ne Dore</option>
+            <option value="paypal">PayPal</option>
+          </select><br>
 
 
           <tr>
             <td>Sasia:</td>
-            <td><input type="number" name="quantity" required max="3" value="1" placeholder="Limit 3 per Person"></td>
+            <td><input type="number" name="Sasia" required  placeholder="Limit 3 per Person"  max="3"  ></td>
           </tr><br>
-          <button type="submit">Porosit</button>
+          <tr>
+            <td>Komenti:</td>
+            <td><textarea name="comments" cols="21" placeholder="Komenti juaj"></textarea></td>
+          </tr><br>
+
+          <button type="submit" >Beje Porosin</button><br>
         </form>
 
     </fieldset><br>
